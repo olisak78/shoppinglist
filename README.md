@@ -7,16 +7,16 @@ This is a React frontend for a shopping list application, interacting with a .NE
 - Git: Install from https://git-scm.com/download/win.
 - Visual Studio Code (optional): For editing and running the project.
 - Backend APIs:
- -- shoplistbackend running at http://localhost:5000.
- -- orderbackend running at http://localhost:3001.
+  shoplistbackend running at http://localhost:5000.
+  orderbackend running at http://localhost:3001.
 
 
 
-Installation
+### Installation
 
-Clone the Repository:
-git clone https://github.com/your-username/frontend.git
-cd frontend
+#### Clone the Repository:
+```git clone https://github.com/your-username/frontend.git
+cd frontend```
 
 
 Install Dependencies:
