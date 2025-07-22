@@ -15,42 +15,44 @@ This is a React frontend for a shopping list application, interacting with a .NE
 ### Installation
 
 #### Clone the Repository:
-```git clone https://github.com/your-username/frontend.git
+```
+git clone https://github.com/your-username/frontend.git
 cd frontend
 ```
 
 #### Install Dependencies:
-```npm install
+```
+npm install
 ```
 
+### Running the Application
 
-Running the Application
-
-Start the Frontend:
+#### Start the Frontend:
+```
 npm start
+```
 
 The app runs at http://localhost:3000.
 
-Test the Application:
+#### Test the Application:
 
-Open http://localhost:3000 in a browser.
-Add items to the shopping list from categories (e.g., Fruits, Vegetables).
-Proceed to the order form, fill it out, and submit to verify order submission.
-Success messages appear as green alerts; errors as red alerts.
+- Open http://localhost:3000 in a browser.
+- Add items to the shopping list from categories (e.g., Fruits, Vegetables).
+- Proceed to the order form, fill it out, and submit to verify order submission.
+- Success messages appear as green alerts; errors as red alerts.
 
 
+### Project Structure
 
-Project Structure
+- src/components/ShoppingList.tsx: Main shopping list interface for adding items.
+- src/components/OrderForm.tsx: Form for submitting orders with Redux integration.
+- src/app/store.ts: Redux store configuration.
+- src/app/shoppingListSlice.ts: Redux slice for managing the shopping list.
+- src/main.css: Styles for the application.
+- src/app/data.ts: Placeholder for category/product data (fetched from backend).
 
-src/components/ShoppingList.tsx: Main shopping list interface for adding items.
-src/components/OrderForm.tsx: Form for submitting orders with Redux integration.
-src/app/store.ts: Redux store configuration.
-src/app/shoppingListSlice.ts: Redux slice for managing the shopping list.
-src/main.css: Styles for the application.
-src/app/data.ts: Placeholder for category/product data (fetched from backend).
+### Notes
 
-Notes
-
-The .gitignore file excludes node_modules/, build/, and .env files.
-Ensure both backends (shoplistbackend, orderbackend) are running before starting the frontend.
-The app fetches categories from http://localhost:5000/api/categories and submits orders to http://localhost:3001/api/orders.
+- The .gitignore file excludes node_modules/, build/, and .env files.
+- Ensure both backends (shoplistbackend, orderbackend) are running before starting the frontend.
+- The app fetches categories from http://localhost:5000/api/categories and submits orders to http://localhost:3001/api/orders.
