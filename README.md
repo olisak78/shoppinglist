@@ -16,12 +16,12 @@ This is a React frontend for a shopping list application, interacting with a .NE
 
 #### Clone the Repository:
 ```git clone https://github.com/your-username/frontend.git
-cd frontend```
+cd frontend
+```
 
-
-Install Dependencies:
-npm install
-
+#### Install Dependencies:
+```npm install
+```
 
 
 Running the Application
