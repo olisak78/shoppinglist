@@ -17,7 +17,7 @@ This is a React frontend for a shopping list application, interacting with a .NE
 #### Clone the Repository:
 ```
 git clone https://github.com/olisak78/shoppinglist.git
-cd frontend
+cd shoppinglist
 ```
 
 #### Install Dependencies:
